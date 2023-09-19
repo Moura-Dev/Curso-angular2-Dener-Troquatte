@@ -1,0 +1,9 @@
+{
+    "postagens" : [
+     { "id" : 1 , "título" : " json-server " , "autor" : " typicode " }
+   ],
+   "comentários" : [
+     { "id" : 1 , "body" : " algum comentário " , "postId" : 1 }
+   ],
+   "perfil" : { "nome" : " typicode " }
+ }
