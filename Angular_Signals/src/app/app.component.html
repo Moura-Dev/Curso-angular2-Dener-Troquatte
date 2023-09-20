@@ -1,0 +1,21 @@
+<p>{{ firstName() }} {{ lastName() }}</p>
+<p>Full Name: {{ fullName() }} </p>
+
+<ul>
+  <li *ngFor="let item of array()">{{ item }}</li>
+</ul>
+
+<button (click)="updateName()">update Name</button>
+<button (click)="updateArray()">update Array</button>
+
+<hr />
+
+<p>
+  {{ updateService.comida() }}
+</p>
+
+<app-novo-item />
+
+<button (click)="updateService.updateComida('Lazanha')">update Comida</button>
+
+
